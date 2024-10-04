@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'QuantaRegular';
+  src: url('./fonts/regular.otf') format('truetype');
+  /* Add additional font weights and styles if needed */
+}
+
+/* Aeonik REGULAR */
+@font-face {
+  font-family: 'QuantaBold';
+  src: url('./fonts/bold.otf') format('truetype');
+  /* Add additional font weights and styles if needed */
+}
+@font-face {
+  font-family: 'Birthday';
+  src: url('./fonts/birthday.otf') format('truetype');
+  /* Add additional font weights and styles if needed */
+}
+
+
+body{
+  background-image: url("/conf.png");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #0c0c0c; /* Replace with your desired background color */
+  color: white; /* Optional: Change the text color when selected */
+}
+
+.heading{
+  font-family: 'QuantaBold';
+  
+}
+
+.small{
+  font-family: 'QuantaRegular';
+}
+.birthday{
+  font-family: 'Birthday';
+}
